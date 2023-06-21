@@ -1,3 +1,6 @@
+/* font-family: 'Poppins', sans-serif; 
+font-family: 'Playfair Display', serif; */
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -13,6 +16,7 @@ h2,
 h3 {
   margin: 0;
   color: var(--secondary-color);
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -30,8 +34,13 @@ h3 {
 
 p {
   font-size: 18px;
+  font-family: "Poppins", sans-serif;
   color: var(--secondary-color);
   line-height: 1.5;
+}
+
+.nav-item {
+  font-family: "Poppins", sans-serif;
 }
 
 .navigation-links {
@@ -52,6 +61,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
 }
 
 .primary-link:hover {
@@ -66,6 +76,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
 }
 
 .homepage-link {
