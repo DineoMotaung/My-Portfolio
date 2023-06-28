@@ -81,6 +81,29 @@ p {
 .hero-button:hover {
   color: var(--secondary-color);
 }
+
+.about-section {
+  padding: 30px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-page-image {
+  border-radius: 15px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 5px;
@@ -106,34 +129,11 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.primary-link {
-  background: var(--branding-color);
-  box-shadow: var(--box-shadow);
-  color: var(--secondary-color);
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-family: var(--main-font-family);
-}
-
-.primary-link:hover {
-  cursor: pointer;
-  color: #000;
-}
 
 .homepage-link {
   color: var(--branding-color);
   text-align: center;
   display: block;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
 }
 
 .email-link {
@@ -152,7 +152,7 @@ p {
 }
 
 .mb-5 {
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
 }
 
 .img-fluid {
@@ -197,6 +197,11 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 
   .project-description {
