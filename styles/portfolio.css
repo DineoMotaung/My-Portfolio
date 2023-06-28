@@ -46,6 +46,19 @@ p {
   font-weight: normal;
 }
 
+footer .social-links {
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 14px;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 .nav-item {
   font-family: var(--default-font-family);
 }
