@@ -68,6 +68,10 @@ p {
   font-weight: normal;
 }
 
+footer {
+  margin: 60px 0;
+}
+
 footer .email-link {
   color: var(--secondary-color);
   font-size: 22px;
@@ -96,7 +100,11 @@ footer .social-links a:hover {
 footer .contact-box {
   background: #191919;
   border-radius: 10px;
-  padding: 30px 140px;
+  padding: 30px 120px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 .logo {
@@ -197,6 +205,16 @@ footer .contact-box {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.resource-links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.resource-links a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 .mb-5 {
