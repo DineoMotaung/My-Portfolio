@@ -253,10 +253,6 @@ footer .contact-box p {
   padding: 8px !important;
 }
 
-.shadow {
-  box-shadow: 8px 16px rgba(7, 7, 7, 0.863) !important;
-}
-
 @media (max-width: 460px) {
   .skills i {
     font-size: 8px;
@@ -269,7 +265,7 @@ footer .contact-box p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 36px;
+    font-size: 44px;
     line-height: 2;
   }
 
@@ -297,15 +293,5 @@ footer .contact-box p {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-
-  .email-link {
-    font-size: 20px;
   }
 }
